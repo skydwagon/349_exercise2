@@ -19,76 +19,26 @@
 <body>
     <!--Heading/Navigation Bar-->
     <article>
-        <h3>BIRDS</h3>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="aboutme.html">About Me</a>
-            <a href="birds.html">Birds</a>
+            <a class="button" href="index.html">Home</a>
+            <a class="button" href="birds.html">Birds</a>
         </nav>
-        <hr>
-        <br/>
+        <h3>BIRDS</h3>
     </article>
     <!--Body-->
-    <div>
-        <!--Table used to Organize info-->
-        <table>
-            <!--Row 1: Header of Table-->
-            <tr>
-                <th> <h2>Beaker</h2> </th>
-                <th> <h2>Niko</h2> </th>
-                <th> <h2>Taro</h2> </th>
-            </tr>
-            <!--Row 2: Images-->
-            <tr>
-                <th> <img src="IMG_4730.png" width="300px"> </th>
-                <th> <img src="IMG_4739.jpg" width="300px"> </th>
-                <th> <img src="IMG_4868.jpg" width="300px"> </th>
-            </tr>
-            <!--Row 3: Brief Info-->
-            <tr>
-                <th>
-                    <p>Beaker is a 3 year old lovebird!</p>
-                    <p>He's a very loud and very energetic bird with anger issues.</p>
-                </th>
-                <th>
-                    <p>Niko is also 3 years old, but he's a parakeet!</p>
-                    <p>He's sweet and very kind, with a pretty voice to match.</p>
-                </th>
-                <th>
-                    <p>Taro is the same age as Niko and the same kind of bird!</p>
-                    <p>She's very timid and skittish, but also very clever.</p>
-                </th>
-            </tr>
-            <!--Row 4: Audio Clips-->
-            <tr>
-                <th>
-                    <p>Beaker's Chirping</p>
-                    <audio controls>
-                        <source src="Beaker_chirp.mp3" type="audio/mpeg">
-                    </audio>
-                </th>
-                <th colspan="2">
-                    <p>Niko's Chirping/Singing</p>
-                    <p>Taro doesn't sing as much as Niko does.</p>
-                    <audio controls>
-                        <source src="Niko_singing.mp3" type="audio/mpeg">
-                    </audio>
-                </th>
-            </tr>
-            <!--Row 5: Youtube Videos-->
-            <tr>
-                <th>
-                    <p>Here is a video about Lovebirds!</p>
-                   > <p>Specifically ones that now live in Phoenix, Arizona.</p>
-                    <iframe width="500" height="300" src="https://www.youtube.com/embed/92M0oV4Dv9Q" frameborder="0" allowfullscreen></iframe>
-                </th>
-                <th colspan="2">
-                    <p>Here is a video about a Parakeet!</p>
-                    <iframe width="500" height="300" src="https://www.youtube.com/embed/jXc9ylCXqCw?si=_zf6e3MeH8WzrGuS" frameborder="0" allowfullscreen></iframe>
-                </th>
-            </tr>
-        </table>
+    <div class="gallery">
+        <a target="_blank" href="IMG_4730.png">
+          <img src="IMG_4730.png" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="dropdown">
+            <span><h2>Beaker</h2></span>
+            <div class="content">
+                <p>Hes just a lil Lovebird!</p>
+                <p class="vertical">He's so silly and loud!</p>
+            </div>
+        </div>
     </div>
+    <br/>
 </body>
 </html>
 
