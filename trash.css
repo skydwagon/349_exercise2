@@ -1,0 +1,31 @@
+div{
+    font-family:'Courier New', Courier, monospace;
+    color:#6d9f71;
+    font-weight:bold;
+    width: 30%;
+    height: 50px;
+    background-color: #6d9f71;
+    font-size: x-large;
+    text-align: center;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+div:hover{
+    width: 50%;
+    animation-delay: 3s;
+}
+
+div.gradienting{
+    width: 100px;
+    height: 100px;
+    background-color: #6d9f71;
+    animation-name: coloring;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes coloring {
+    from {background-color: #6d9f71;}
+    to {background-color: #337357;}
+    to {background-color: #6d9f71;}
+}

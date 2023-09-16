@@ -1,5 +1,56 @@
 /*
     Marriam Jawaid 
-    9/8/2023
+    9/15/2023
     Cal State Fullerton
 */
+@media (max-width: 768px) {
+
+}
+
+
+body{
+    background-image: linear-gradient(#e4e3d3, #e4e3d3);
+}
+
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: xx-large;
+    color:#2e2d4d;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid #2e2d4d;
+    padding: 20px;
+    width: auto;
+    height: 20%;
+    text-shadow: -1px 0 #af9ab2, 0 1px #af9ab2, 1px 0 #af9ab2, 0 -1px #af9ab2
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    background-color: #337357;
+    padding:5px;
+    border-radius: 10px;
+}
+
+a{
+    font-family:'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    color:#e4e3d3;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a.button{
+    background-color: #6d9f71; /* Green */
+    border: none;
+    padding: 10px 20px;
+    opacity: 0.8;
+}
+a:hover{
+    opacity: 0.5;
+}
+
+
